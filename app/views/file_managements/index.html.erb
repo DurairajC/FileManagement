@@ -1,0 +1,18 @@
+<h1>File Management</h1>
+ 
+<%= link_to 'Add File', new_file_management_path %>
+<br><hr>
+ 
+<% if @files.present? %>
+<table border="1">
+	<tr>
+		<th>Title</th>
+		<th>Description</th>
+		<th>File Name</th>
+		<th></th>
+		<th></th>
+		<th></th>
+	</tr>
+<%= render @files %>
+</table> 
+<% end %>
