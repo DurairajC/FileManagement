@@ -31,8 +31,8 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise'
 gem 'carrierwave'   
 gem 'bootstrap-sass'
-gem 'carrierwave'
 gem 'file_validators'
+gem 'bitly', '~> 2.0', '>= 2.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

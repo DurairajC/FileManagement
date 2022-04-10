@@ -6,4 +6,5 @@
 	<td><%= link_to 'Edit', edit_file_management_path(file_management) %></td>
 	<td><%= link_to 'Delete', file_management, :method => 'delete' %></td>
 	<td><%= link_to 'Download file', file_management.attachment.url %></td>
+	<td><%= url_short("http://"+request.host.to_s+":3000"+file_management.attachment.url) %></td>
 </tr>
