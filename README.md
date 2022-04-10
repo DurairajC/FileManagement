@@ -4,7 +4,9 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Host changes:
+
 run the below command in terminal
+
     1)  sudo nano /etc/hosts
     2) add the following line in host file
         127.0.0.1       test.filemanagement.com
